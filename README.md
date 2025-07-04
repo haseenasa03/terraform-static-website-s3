@@ -34,29 +34,25 @@ This project demonstrates how to use **Terraform** to deploy a fully functional 
 ## ✅ How to Use
 
 1. Clone the repository:
-```bash
 git clone https://github.com/your-username/terraform-static-website-s3.git
 cd terraform-static-website-s3
 
-Initialize Terraform:
-
-bash
-Copy
-Edit
+2. Initialize Terraform:
 terraform init
-Apply the configuration:
 
-bash
-Copy
-Edit
+3. Apply the configuration:
 terraform apply
+
 Visit the output website URL in your browser.
+http://mywebapp-bucket-8100b96688afc4dd.s3-website.ap-south-1.amazonaws.com/
 
 🛡️ Note
 This configuration is designed for public hosting of non-sensitive static content only.
 
 📬 Connect
 If you found this useful or have questions, feel free to connect with me on LinkedIn.
+
+
 
 
 
